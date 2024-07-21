@@ -56,8 +56,8 @@ function generarNumeroSecreto() {
 }
 
 function condicionesIniciales() {
-    asignarTextoElemento('h1','Adivina el número secreto');
-    asignarTextoElemento('p',`Ingresa un número del 1 al ${numeroMaximo}`);
+    asignarTextoElemento('h1','★ Adivina el número secreto  ★');
+    asignarTextoElemento('p',`Ingresa un número del 1 al  ${numeroMaximo}`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
     numeroMaximoIntentos = 5;
