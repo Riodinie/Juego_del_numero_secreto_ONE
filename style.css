@@ -15,6 +15,11 @@ body {
   justify-content: center;
 }
 
+
+button{
+  margin-bottom: 20px;
+}
+
 #valorUsuario {
   width: 60%;
 }
